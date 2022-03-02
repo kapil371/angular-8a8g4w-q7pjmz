@@ -1,0 +1,8 @@
+
+<div class="control-section">
+    <ejs-gantt id="DragAndDrop" #gantt height="430px" [dataSource]="data" [taskFields]="taskSettings" [allowRowDragAndDrop]="allowRowDragAndDrop" [columns]="columns"
+        [labelSettings]="labelSettings" [treeColumnIndex]="1" [splitterSettings]="splitterSettings" [selectionSettings]="selectionSettings" 
+        [highlightWeekends]="true" [projectStartDate]="projectStartDate" [projectEndDate]="projectEndDate"
+        [toolbar]="toolbar"  (toolbarClick)="toolbarClick($event)" (dataBound)="databound()">
+    </ejs-gantt>
+</div>

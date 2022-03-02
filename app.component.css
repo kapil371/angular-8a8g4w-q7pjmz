@@ -1,0 +1,3 @@
+::ng-deep .e-gantt .e-gantt-chart .e-label {
+  z-index: 3;
+}
